@@ -28,8 +28,8 @@ entries:
       url: https://sagikazarmark.hu
     name: dex
     sources:
-    - https://github.com/johnlbellamy/dex-fix
-    - https://github.com/johnlbellamy/dex-fix/dex
+    - https://github.com/dexidp/dex
+    - https://github.com/dexidp/helm-charts/tree/master/charts/dex
     type: application
     urls:
     - dex-0.6.3.tgz
