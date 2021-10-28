@@ -65,9 +65,7 @@ envFrom: []
 
 # -- Additional environment variables passed directly to containers.
 # See the [API reference](https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#environment-variables) for details.
-env: 
-{"name":"KUBERNETES_POD_NAMESPACE",
-"value":"auth"}
+env: {}
 
 serviceAccount:
   # -- Enable service account creation.
